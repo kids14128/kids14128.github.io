@@ -2,14 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kids14128.github.io/</id>
     <title>爱你三千遍</title>
-    <updated>2019-05-31T07:54:20.150Z</updated>
+    <updated>2019-05-31T08:57:11.018Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kids14128.github.io/"/>
     <link rel="self" href="https://kids14128.github.io//atom.xml"/>
-    <subtitle>you can’t connect the dots looking forword
-you can only connect them looking backwards
-so you have to trust
-they will somehow connect in your future</subtitle>
+    <subtitle>&lt;p&gt;you can’t connect the dots looking forword
+未来总让人感到飘渺不定&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;you can only connect them looking backwards
+只有在回首时才能发现&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;so you have to trust
+那些看似随机的点滴&lt;/p&gt;
+
+&lt;hr/&gt;
+
+&lt;p&gt;they will somehow connect in your future
+以某种形式串联起了你的未来&lt;/p&gt;</subtitle>
     <logo>https://kids14128.github.io//images/avatar.png</logo>
     <icon>https://kids14128.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 爱你三千遍</rights>
