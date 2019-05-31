@@ -2,26 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://kids14128.github.io/</id>
     <title>爱你三千遍</title>
-    <updated>2019-05-31T16:40:58.392Z</updated>
+    <updated>2019-05-31T16:56:29.385Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kids14128.github.io/"/>
     <link rel="self" href="https://kids14128.github.io//atom.xml"/>
-    <subtitle>深藏功与名，淡泊见初心
-
-&lt;hr/&gt;
-
-&lt;p&gt;you can only connect them looking backwards
-只有在回首时才能发现&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;so you have to trust
-那些看似随机的点滴&lt;/p&gt;
-
-&lt;hr/&gt;
-
-&lt;p&gt;they will somehow connect in your future
-以某种形式串联起了你的未来&lt;/p&gt;</subtitle>
+    <subtitle>深藏功与名，淡泊见初心</subtitle>
     <logo>https://kids14128.github.io//images/avatar.png</logo>
     <icon>https://kids14128.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 爱你三千遍</rights>
