@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | 爱你三千遍</title>
+<title>Class1 | 爱你三千遍</title>
 <link rel="shortcut icon" href="https://kids14128.github.io//favicon.ico?v=1560410319828">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -74,17 +74,57 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              Class1
             </h2>
             <div class="post-info">
               <time class="post-time">
-                · 2019-01-25 ·
+                · 2019-06-13 ·
               </time>
               
             </div>
             
             <div class="post-content">
-              <p>这是关于的页面，可以在这里向世界介绍你！</p>
+              <p>网址就是一个字符串，由协议，主机，端口，路径组成</p>
+<blockquote>
+<p>https://www.baidu.com</p>
+</blockquote>
+<h3 id="主机">主机</h3>
+<p>域名，有一个机构为这些数字（IP）取名字，通过DNS服务器来告诉你的浏览器他们之间的对应关系</p>
+<blockquote>
+<p>利用ping命令可以找到域名对应的IP地址</p>
+</blockquote>
+<h3 id="端口">端口</h3>
+<p><em>定义</em>：IP相当于地址，端口是收信人姓名（一个地址比如公司、家只有一个地址，但是却可能有很多收信人）</p>
+<p>端口就是一个标记收信人的 <em>数字</em></p>
+<p>端口是一个16位的数字，所以范围是 0 ~ 65535</p>
+<h3 id="http协议">http协议</h3>
+<p><em>定义</em>：一个传输协议，协议就是双方都遵守的规范</p>
+<p>为什么叫超文本传输协议呢，因为收发的是文本信息</p>
+<ol>
+<li>浏览器（客户端）按照 <em>规定的格式</em> 发送文本数据（请求）到服务器</li>
+<li>服务器 <em>解析</em> 请求，按照 <em>规定的格式</em> 返回文本数据（未必全是文本数据）到浏览器</li>
+<li>浏览器 <em>解析</em> 得到的数据，并做相应处理</li>
+</ol>
+<p>请求和返回是一样的数据格式，分为4部分：</p>
+<ol>
+<li>请求行或者响应行</li>
+<li>Header（请求的 Header 中 Host 字段是必须的，其他的都是可选（协议宽松））</li>
+<li>\r\n\r\n（连续两个换行回车符，用来分隔 Header 和 Body）</li>
+<li>Body（可选）</li>
+</ol>
+<p>请求的格式，注意大小写（这是一个不包含Body的请求）</p>
+<p>'GET / HTTP/1.1\r\nhost:g.cn\r\n\r\n'</p>
+<p>打印出来如下：
+'''
+GET / HTTP/1.1
+Host:g.cn
+'''</p>
+<p>其中，</p>
+<ol>
+<li>GET是请求方法（还有POST等，这就是个标志字符串而已）</li>
+<li>/ 是请求的路径（这代表根路径）</li>
+<li>HTTP/1.1 中，1.1是版本号，通用了快20年了</li>
+</ol>
 
             </div>
           </article>
